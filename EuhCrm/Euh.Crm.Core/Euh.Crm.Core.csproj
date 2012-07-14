@@ -31,6 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MongoDB">
+      <HintPath>..\Mongo-lib\MongoDB.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.GridFS">
+      <HintPath>..\Mongo-lib\MongoDB.GridFS.dll</HintPath>
+    </Reference>
     <Reference Include="Moq">
       <HintPath>..\Moq.dll</HintPath>
     </Reference>

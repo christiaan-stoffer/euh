@@ -14,9 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mongo-lib", "Mongo-lib", "{
 	ProjectSection(SolutionItems) = preProject
 		Mongo-lib\MongoDB.dll = Mongo-lib\MongoDB.dll
 		Mongo-lib\MongoDB.GridFS.dll = Mongo-lib\MongoDB.GridFS.dll
-		Mongo-lib\MongoDB.GridFS.pdb = Mongo-lib\MongoDB.GridFS.pdb
 		Mongo-lib\MongoDB.GridFS.xml = Mongo-lib\MongoDB.GridFS.xml
-		Mongo-lib\MongoDB.pdb = Mongo-lib\MongoDB.pdb
 		Mongo-lib\MongoDB.xml = Mongo-lib\MongoDB.xml
 	EndProjectSection
 EndProject
