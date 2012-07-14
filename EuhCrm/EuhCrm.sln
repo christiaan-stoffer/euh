@@ -7,7 +7,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		Moq.dll = Moq.dll
 	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euh.Crm.Core", "Euh.Crm.Core\Euh.Crm.Core.csproj", "{78A77627-9102-4342-BD84-339141D4CF1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mongo-lib", "Mongo-lib", "{C21ACB2C-DD70-4543-9888-70DDA5CB9C2B}"
+	ProjectSection(SolutionItems) = preProject
+		Mongo-lib\MongoDB.dll = Mongo-lib\MongoDB.dll
+		Mongo-lib\MongoDB.GridFS.dll = Mongo-lib\MongoDB.GridFS.dll
+		Mongo-lib\MongoDB.GridFS.pdb = Mongo-lib\MongoDB.GridFS.pdb
+		Mongo-lib\MongoDB.GridFS.xml = Mongo-lib\MongoDB.GridFS.xml
+		Mongo-lib\MongoDB.pdb = Mongo-lib\MongoDB.pdb
+		Mongo-lib\MongoDB.xml = Mongo-lib\MongoDB.xml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
