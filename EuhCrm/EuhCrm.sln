@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		Moq.dll = Moq.dll
 	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euh.Crm.Core", "Euh.Crm.Core\Euh.Crm.Core.csproj", "{78A77627-9102-4342-BD84-339141D4CF1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +19,10 @@ Global
 		{DA8FBC7F-052C-4506-AD36-EB58B4F3235B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA8FBC7F-052C-4506-AD36-EB58B4F3235B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA8FBC7F-052C-4506-AD36-EB58B4F3235B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A77627-9102-4342-BD84-339141D4CF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A77627-9102-4342-BD84-339141D4CF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A77627-9102-4342-BD84-339141D4CF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A77627-9102-4342-BD84-339141D4CF1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
