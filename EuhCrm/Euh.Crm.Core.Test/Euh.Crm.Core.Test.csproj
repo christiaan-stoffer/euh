@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{78A77627-9102-4342-BD84-339141D4CF1E}</ProjectGuid>
+    <ProjectGuid>{40F87022-11E1-4824-B22D-7B55D7E9BC49}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Euh.Crm.Core</RootNamespace>
-    <AssemblyName>Euh.Crm.Core</AssemblyName>
+    <RootNamespace>Euh.Crm.Core.Test</RootNamespace>
+    <AssemblyName>Euh.Crm.Core.Test</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,18 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MongoDB">
-      <HintPath>..\Mongo-lib\MongoDB.dll</HintPath>
-    </Reference>
-    <Reference Include="MongoDB.GridFS">
-      <HintPath>..\Mongo-lib\MongoDB.GridFS.dll</HintPath>
-    </Reference>
-    <Reference Include="Moq">
-      <HintPath>..\Moq.dll</HintPath>
-    </Reference>
     <Reference Include="nunit.framework, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
     <Reference Include="System" />
-    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -51,11 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Field.cs" />
-    <Compile Include="Entity.cs" />
-    <Compile Include="IValue.cs" />
-    <Compile Include="MongoService.cs" />
+    <Compile Include="MongServiceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Euh.Crm.Core\Euh.Crm.Core.csproj">
+      <Project>{78A77627-9102-4342-BD84-339141D4CF1E}</Project>
+      <Name>Euh.Crm.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
