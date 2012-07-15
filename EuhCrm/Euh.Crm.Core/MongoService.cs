@@ -31,6 +31,7 @@ namespace Euh.Crm.Core
 
         public void CreateEntity(IEnumerable<Entity> entities)
         {
+            if(entities ==  null) throw new ArgumentNullException("entities");
             _collection.Insert(entities);
         }
     }

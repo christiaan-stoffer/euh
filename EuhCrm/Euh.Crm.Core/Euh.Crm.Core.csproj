@@ -53,7 +53,6 @@
   <ItemGroup>
     <Compile Include="Field.cs" />
     <Compile Include="Entity.cs" />
-    <Compile Include="IValue.cs" />
     <Compile Include="MongoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

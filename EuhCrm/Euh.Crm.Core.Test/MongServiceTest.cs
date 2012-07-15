@@ -17,7 +17,7 @@ namespace Euh.Crm.Core.Test
         }
 
         [Test]
-        public void TestCreateEntity()
+        public void CreateEntities()
         {
             IEnumerable<Entity> entities = Enumerable.Range(0, 50000).Select(i =>
                                                                                  {
@@ -27,7 +27,7 @@ namespace Euh.Crm.Core.Test
                                                                                                             Name =
                                                                                                                 "string field",
                                                                                                             Value =
-                                                                                                                "FooShizzle"
+                                                                                                                "FooShizzle",
                                                                                                         });
                                                                                      ent.Fields.Add(new Field
                                                                                                         {
@@ -35,21 +35,22 @@ namespace Euh.Crm.Core.Test
                                                                                                                 "date field",
                                                                                                             Value =
                                                                                                                 DateTime
-                                                                                                                .Now
+                                                                                                                .Now,
                                                                                                         });
                                                                                      return ent;
                                                                                  });
 
-            foreach (Entity entity in entities)
-            {
-                _service.CreateEntity(entity);
-            }
+            _service.CreateEntity(entities);
+        }
 
-
-//            foreach (var entity in _service.FindAll())
-//            {
-//                string s = "";
-//            }
+        [Test]
+        public void RetrieveTypeFieldValue()
+        {
+            IEnumerable<Entity> entities = _service.FindAll();
+            Entity entity = entities.First();
+            Field first = entity.Fields.First();
+            object value = first.Value;
+            Assert.NotNull(value, "Field value cannot be null");
         }
     }
 }

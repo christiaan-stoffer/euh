@@ -1,4 +1,6 @@
-﻿namespace Euh.Crm.Core
+﻿using System;
+
+namespace Euh.Crm.Core
 {
     public class Field
     {

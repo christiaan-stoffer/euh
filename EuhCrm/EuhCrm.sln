@@ -6,7 +6,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{457448D0-74A2-49E2-8249-44F24B1C72E9}"
 	ProjectSection(SolutionItems) = preProject
 		Moq.dll = Moq.dll
-		Performance1.psess = Performance1.psess
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euh.Crm.Core", "Euh.Crm.Core\Euh.Crm.Core.csproj", "{78A77627-9102-4342-BD84-339141D4CF1E}"
