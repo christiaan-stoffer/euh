@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-<<<<<<< HEAD
-=======
+
 using System.IO;
 using System.Reflection;
->>>>>>> Did work on javascript framework
 
 namespace Euh.Crm.Core
 {
@@ -16,10 +14,7 @@ namespace Euh.Crm.Core
         }
 
         public List<Field> Fields { get; set; }
-<<<<<<< HEAD
         public string Name { get; set; }
-=======
-
         public void Shizzle()
         {
             using (var s = Assembly.GetExecutingAssembly().GetManifestResourceStream("Euh.Crm.Core.template.txt"))
@@ -30,6 +25,5 @@ namespace Euh.Crm.Core
                 }
             }
         }
->>>>>>> Did work on javascript framework
     }
 }
