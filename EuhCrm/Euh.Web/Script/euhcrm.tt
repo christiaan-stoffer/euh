@@ -1,0 +1,8 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".js" #>
+
+<#@ include file="messagebus.js" #>
+
+<#@ include file="core.js" #>
+
+<#@ include file="formframework.js" #>

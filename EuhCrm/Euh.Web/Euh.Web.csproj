@@ -67,6 +67,16 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Script\core.js" />
+    <Content Include="Script\euhcrm.js">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>euhcrm.tt</DependentUpon>
+    </Content>
+    <Content Include="Script\formframework.js" />
+    <Content Include="Script\jquery-1.7.2.min.js" />
+    <Content Include="Script\messagebus.js" />
+    <Content Include="style\main.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -83,6 +93,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Script\euhcrm.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>euhcrm.js</LastGenOutput>
+    </None>
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

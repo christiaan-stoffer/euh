@@ -1,0 +1,45 @@
+﻿body,
+input
+{
+    font-size: 0.75em;
+    color: #333;
+    font-family: arial, verdana, sans-serif;
+    margin: 0;
+}
+
+div#ec-form-container
+{
+    width: 69.5%;
+    float: right;
+    min-height: 300px;
+}
+
+div#ec-toolpane-container 
+{
+    float: left;
+    width: 30%;
+}
+
+div#ec-toolpane-container div.ec-inner {
+    background-color: #efefef;
+    border-right: 1px solid #333;
+    min-height: 300px;
+}
+
+div.ec-clearfloat {
+    clear: both;
+}
+
+div.ec-inner {
+    padding: 7px;
+}
+
+input.ec-large 
+{
+    font-size: 2em;
+    border: 1px solid #666;
+}
+
+#ec-entitytitle {
+    width: 300px;
+}
