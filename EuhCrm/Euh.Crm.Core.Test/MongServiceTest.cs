@@ -26,16 +26,14 @@ namespace Euh.Crm.Core.Test
                                                                                                         {
                                                                                                             Name =
                                                                                                                 "string field",
-                                                                                                            Value =
-                                                                                                                "FooShizzle",
+                                                                                                            BaseType =
+                                                                                                                "string",
                                                                                                         });
                                                                                      ent.Fields.Add(new Field
                                                                                                         {
                                                                                                             Name =
                                                                                                                 "date field",
-                                                                                                            Value =
-                                                                                                                DateTime
-                                                                                                                .Now,
+                                                                                                            BaseType = "datetime"
                                                                                                         });
                                                                                      return ent;
                                                                                  });
@@ -49,8 +47,8 @@ namespace Euh.Crm.Core.Test
             IEnumerable<Entity> entities = _service.FindAll();
             Entity entity = entities.First();
             Field first = entity.Fields.First();
-            object value = first.Value;
-            Assert.NotNull(value, "Field value cannot be null");
+            string baseType = first.BaseType;
+            Assert.NotNull(baseType, "Field value cannot be null");
         }
     }
 }

@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityClassBuilder.cs" />
     <Compile Include="Field.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="MongoService.cs" />

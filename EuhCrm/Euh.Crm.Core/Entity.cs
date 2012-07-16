@@ -11,5 +11,6 @@ namespace Euh.Crm.Core
         }
 
         public List<Field> Fields { get; set; }
+        public string Name { get; set; }
     }
 }
