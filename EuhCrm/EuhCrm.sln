@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euh.Web", "Euh.Web\Euh.Web.csproj", "{DA8FBC7F-052C-4506-AD36-EB58B4F3235B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{457448D0-74A2-49E2-8249-44F24B1C72E9}"
 	ProjectSection(SolutionItems) = preProject
 		Moq.dll = Moq.dll
@@ -20,16 +18,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mongo-lib", "Mongo-lib", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euh.Crm.Core.Test", "Euh.Crm.Core.Test\Euh.Crm.Core.Test.csproj", "{40F87022-11E1-4824-B22D-7B55D7E9BC49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euh.Crm.Web.Test", "Euh.Crm.Web.Test\Euh.Crm.Web.Test.csproj", "{D75AEA22-E38D-4F9A-867B-A3A273ECA68C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euh.Crm.Web", "Euh.Crm.Web\Euh.Crm.Web.csproj", "{DA8FBC7F-052C-4506-AD36-EB58B4F3235B}"
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = EuhCrm.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DA8FBC7F-052C-4506-AD36-EB58B4F3235B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA8FBC7F-052C-4506-AD36-EB58B4F3235B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA8FBC7F-052C-4506-AD36-EB58B4F3235B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA8FBC7F-052C-4506-AD36-EB58B4F3235B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{78A77627-9102-4342-BD84-339141D4CF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{78A77627-9102-4342-BD84-339141D4CF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78A77627-9102-4342-BD84-339141D4CF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -38,6 +39,14 @@ Global
 		{40F87022-11E1-4824-B22D-7B55D7E9BC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40F87022-11E1-4824-B22D-7B55D7E9BC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40F87022-11E1-4824-B22D-7B55D7E9BC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75AEA22-E38D-4F9A-867B-A3A273ECA68C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75AEA22-E38D-4F9A-867B-A3A273ECA68C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75AEA22-E38D-4F9A-867B-A3A273ECA68C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75AEA22-E38D-4F9A-867B-A3A273ECA68C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8FBC7F-052C-4506-AD36-EB58B4F3235B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8FBC7F-052C-4506-AD36-EB58B4F3235B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8FBC7F-052C-4506-AD36-EB58B4F3235B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8FBC7F-052C-4506-AD36-EB58B4F3235B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
